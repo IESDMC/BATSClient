@@ -2,7 +2,16 @@
 A python toolbox for request data from [BATS](https://bats.earth.sinica.edu.tw/).
 
 ## Install
+Download the zip file of this package and extract it.
+
+Install conda to create virtual environment for python.
+[https://docs.conda.io/en/latest/miniconda.html](https://docs.conda.io/en/latest/miniconda.html)
 ```shell
+# create virtual environments
+conda create -n BATSClient python=3 pip
+conda activate BATSClient
+
+# install dependencies
 pip install -r requirement.txt
 ```
 
