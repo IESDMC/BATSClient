@@ -392,7 +392,7 @@ def build_url(base_url, service, parameters=None, subpath='BATSWS'):
                 parameters[key] = value.strip()
             except Exception:
                 pass
-        url = "?".join((url, urlencode(parameters, safe=':,*')))
+        url = "?".join((url, urlencode(parameters, safe=':,*?')))
         
     return url
 

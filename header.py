@@ -84,10 +84,11 @@ class FDSNNoServiceException(FDSNException):
 
 # https://www.fdsn.org/webservices/datacenters/
 URL_MAPPINGS = {
-    "BATS": "http://tecws1.earth.sinica.edu.tw/",
+    "BATS": "http://tecws1.earth.sinica.edu.tw/BATSWS",
+    "IES": "http://tecws1.earth.sinica.edu.tw/IESWS",
     }
 
-URL_DEFAULT_SUBPATH = '/BATSWS'
+URL_DEFAULT_SUBPATH = ''
 
 BATSWS = ("query", "respquery")
 
